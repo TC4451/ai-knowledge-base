@@ -28,6 +28,11 @@ For both human reference and AI agent consumption.
 - [**Obsidian at Amazon**](tools/obsidian-at-amazon.md)
   Obsidian is AppSec-approved at Amazon, available via IT Marketplace, used by 4000+ Amazonians — but Obsidian Sync is not allowed for work vaults.
 
+### Workflows
+
+- [**Superpowers Project Workflow**](workflows/superpowers-project-workflow.md)
+  The standard project workflow chains skills in order: using-superpowers → brainstorming → planning-with-files → grill-me → writing-plans → executing-plans.
+
 ### Recipes
 
 - [**Save a Learning to the KB Mid-Conversation**](recipes/save-to-kb-mid-conversation.md)
@@ -37,5 +42,5 @@ For both human reference and AI agent consumption.
 
 ## Tags
 
- `agents` `ai-coding` `amazon` `amazon-internal` `architecture` `claude-code` `development-methodology` `it-marketplace` `kiro` `knowledge-base` `mcp` `note-taking` `obsidian` `skills` `specs` `urls` `workflow`
+ `agents` `ai-coding` `amazon` `amazon-internal` `architecture` `claude-code` `development-methodology` `it-marketplace` `kiro` `knowledge-base` `mcp` `note-taking` `obsidian` `project-lifecycle` `skills` `specs` `superpowers` `urls` `workflow`
 
