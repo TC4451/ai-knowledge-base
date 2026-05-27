@@ -27,11 +27,15 @@ cat > "$README" << 'HEADER'
 ### TL;DR
 
 ```bash
-# Clone and set up skills
+# Clone and set up
 git clone https://github.com/TC4451/ai-knowledge-base.git
-cd ai-knowledge-base && diff <(cat skills-manifest.txt) <(ls ~/.claude/skills/)
+cd ai-knowledge-base
+./scripts/setup.sh          # Register KB with Claude Code (enables "save this to the KB" from anywhere)
 
-# Add a learning mid-conversation
+# Check skills are installed
+diff <(cat skills-manifest.txt) <(ls ~/.claude/skills/)
+
+# Add a learning mid-conversation (works from any directory after setup)
 "Save this to the KB — [your learning here]"
 
 # Aggregate knowledge from all .claude/ dirs
@@ -112,6 +116,16 @@ cat >> "$README" << 'USAGE'
 ---
 
 ## Usage
+
+### Setup
+
+Run the setup script to register this KB with Claude Code. This creates a memory entry so Claude knows where the KB lives — enabling "save this to the KB" from **any directory**.
+
+```bash
+./scripts/setup.sh
+```
+
+After setup, any Claude Code session on your machine will automatically know about this KB. No need to be in the repo directory.
 
 ### Adding Entries
 
