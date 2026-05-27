@@ -3,6 +3,8 @@
 A curated collection of AI usage learnings — Claude Code, Kiro, MCP, and more.
 For both human reference and AI agent consumption.
 
+**Automatically aggregates** new knowledge from `.claude/` directories across your machine, and **ensures your AI skills are always installed** via a manifest-based auto-setup check.
+
 ---
 
 ## Entries
