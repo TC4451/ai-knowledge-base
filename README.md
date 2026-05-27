@@ -17,7 +17,7 @@ For both human reference and AI agent consumption.
 ### Concepts
 
 - [**MCP Tools vs Direct Links**](concepts/mcp-vs-direct-links.md)
-  Use MCP tools (ReadInternalWebsites) for Amazon-internal URLs; use direct fetch for public URLs.
+  Use MCP tools for URLs behind corporate auth; use direct fetch for public URLs.
 - [**Skills vs Agents in Claude Code**](concepts/skills-vs-agents.md)
   Skills are inline slash-commands that run in your conversation; Agents are isolated workers spawned for parallel or noisy tasks.
 - [**Spec-Driven Development in Kiro**](concepts/spec-driven-development.md)
@@ -25,8 +25,8 @@ For both human reference and AI agent consumption.
 
 ### Tools
 
-- [**Obsidian at Amazon**](tools/obsidian-at-amazon.md)
-  Obsidian is AppSec-approved at Amazon, available via IT Marketplace, used by 4000+ Amazonians — but Obsidian Sync is not allowed for work vaults.
+- [**Obsidian for Enterprise Use**](tools/obsidian-for-enterprise.md)
+  Obsidian works well in enterprise environments — but cloud sync features are typically restricted for vaults containing company data.
 
 ### Workflows
 
@@ -42,5 +42,5 @@ For both human reference and AI agent consumption.
 
 ## Tags
 
- `agents` `ai-coding` `amazon` `amazon-internal` `architecture` `claude-code` `development-methodology` `it-marketplace` `kiro` `knowledge-base` `mcp` `note-taking` `obsidian` `project-lifecycle` `skills` `specs` `superpowers` `urls` `workflow`
+ `agents` `ai-coding` `architecture` `claude-code` `development-methodology` `enterprise` `kiro` `knowledge-base` `mcp` `note-taking` `obsidian` `project-lifecycle` `skills` `specs` `superpowers` `urls` `workflow`
 

@@ -1,20 +1,20 @@
 ---
 title: MCP Tools vs Direct Links
 category: concepts
-tags: [claude-code, mcp, urls, amazon-internal]
+tags: [claude-code, mcp, urls]
 created: 2026-05-27
 source: conversation
 ---
 
 ## TL;DR
 
-Use MCP tools (ReadInternalWebsites) for Amazon-internal URLs; use direct fetch for public URLs.
+Use MCP tools for URLs behind corporate auth; use direct fetch for public URLs.
 
 ## Details
 
-**MCP tools** are required when the URL needs Midway authentication — anything with `amazon` in the hostname, or `a2z.com` / `aws.dev` domains. The `ReadInternalWebsites` tool handles this auth transparently.
+**MCP tools** are required when the URL needs corporate authentication (SSO, VPN-gated internal sites, etc.). MCP servers like `ReadInternalWebsites` handle this auth transparently.
 
-**Direct fetch** works for public URLs (GitHub, Stack Overflow, AWS public docs, etc.) — no special auth needed.
+**Direct fetch** works for public URLs (GitHub, Stack Overflow, public docs, etc.) — no special auth needed.
 
 In practice, you can just paste any link. Claude will route it through the appropriate tool automatically. But if you're wondering why a fetch failed, check whether the URL is internal (needs MCP) or public (direct).
 

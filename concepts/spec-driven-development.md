@@ -26,7 +26,7 @@ Spec-driven development in Kiro formalizes AI-assisted coding into structured ph
 
 **Why it matters:** Instead of "vibe coding" (chatting with AI hoping for the best), you get a structured plan that acts as a contract between your intent and the AI's output. The spec lives in `.kiro/specs/` alongside your code.
 
-This is essentially Amazon's BRD → Design → Tasks workflow, but with AI drafting each phase and the developer reviewing/refining before implementation begins.
+This is essentially the traditional PRD → Design → Tasks workflow, but with AI drafting each phase and the developer reviewing/refining before implementation begins.
 
 **Related Kiro concepts:**
 - **Steering** (`.kiro/steering/`) — persistent project knowledge (product.md, tech.md, structure.md)
@@ -34,4 +34,4 @@ This is essentially Amazon's BRD → Design → Tasks workflow, but with AI draf
 
 ## When This Matters
 
-When someone mentions "spec-based features," "spec mode," or "SDD" in the context of Kiro or AI-assisted development at Amazon.
+When someone mentions "spec-based features," "spec mode," or "SDD" in the context of Kiro or AI-assisted development.
