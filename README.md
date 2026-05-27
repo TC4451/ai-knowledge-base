@@ -1,9 +1,17 @@
 # AI Knowledge Base
 
-A curated collection of AI usage learnings — Claude Code, Kiro, MCP, and more.
-For both human reference and AI agent consumption.
+📚 A curated collection of AI usage learnings — Claude Code, Kiro, MCP, and more. For both human reference and AI agent consumption.
 
-**Automatically aggregates** new knowledge from `.claude/` directories across your machine, and **ensures your AI skills are always installed** via a manifest-based auto-setup check.
+🔄 **Automatically aggregates** new knowledge from `.claude/` directories across your machine, and **ensures your AI skills are always installed** via a manifest-based auto-setup check.
+
+---
+
+## Table of Contents
+
+- [Entries](#entries) — Browse knowledge by category
+- [Tags](#tags) — Cross-cutting topic index
+- [Usage](#usage) — How to add, aggregate, and manage entries
+- [For AI Agents](#for-ai-agents) — How agents discover and use this KB
 
 ---
 
