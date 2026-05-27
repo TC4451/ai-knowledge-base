@@ -4,6 +4,19 @@
 
 🔄 **Automatically aggregates** new knowledge from `.claude/` directories across your machine, and **ensures your AI skills are always installed** via a manifest-based auto-setup check.
 
+### TL;DR
+
+```bash
+# Add a learning mid-conversation
+"Save this to the KB — [your learning here]"
+
+# Aggregate knowledge from all .claude/ dirs
+./scripts/aggregate.sh
+
+# Regenerate the README after changes
+./scripts/generate-readme.sh
+```
+
 ---
 
 ## Table of Contents
