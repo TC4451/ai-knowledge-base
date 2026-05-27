@@ -47,6 +47,8 @@ cd ai-knowledge-base && diff <(cat skills-manifest.txt) <(ls ~/.claude/skills/)
 
 - [**Obsidian for Enterprise Use**](tools/obsidian-for-enterprise.md)
   Obsidian works well in enterprise environments — but cloud sync features are typically restricted for vaults containing company data.
+- [**Orient Skill — Repo Situational Awareness**](tools/orient-skill.md)
+  Custom `/orient` skill provides instant situational awareness of any repo — runs parallel diagnostics and outputs a tiered briefing.
 
 ### Workflows
 
@@ -141,5 +143,5 @@ Agents should:
 
 ## Tags
 
- `agents` `ai-coding` `architecture` `claude-code` `development-methodology` `enterprise` `kiro` `knowledge-base` `mcp` `note-taking` `obsidian` `project-lifecycle` `skills` `specs` `superpowers` `urls` `workflow`
+ `agents` `ai-coding` `architecture` `claude-code` `development-methodology` `diagnostics` `enterprise` `kiro` `knowledge-base` `mcp` `note-taking` `obsidian` `project-lifecycle` `repo-awareness` `skills` `specs` `superpowers` `urls` `workflow`
 
