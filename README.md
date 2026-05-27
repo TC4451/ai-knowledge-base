@@ -9,9 +9,9 @@
 ## Table of Contents
 
 - [Entries](#entries) — Browse knowledge by category
-- [Tags](#tags) — Cross-cutting topic index
 - [Usage](#usage) — How to add, aggregate, and manage entries
 - [For AI Agents](#for-ai-agents) — How agents discover and use this KB
+- [Tags](#tags) — Cross-cutting topic index
 
 ---
 
@@ -40,12 +40,6 @@
 
 - [**Save a Learning to the KB Mid-Conversation**](recipes/save-to-kb-mid-conversation.md)
   Say "save this to the KB" during any Claude session to capture a learning without breaking flow.
-
----
-
-## Tags
-
- `agents` `ai-coding` `architecture` `claude-code` `development-methodology` `enterprise` `kiro` `knowledge-base` `mcp` `note-taking` `obsidian` `project-lifecycle` `skills` `specs` `superpowers` `urls` `workflow`
 
 ---
 
@@ -126,3 +120,9 @@ Agents should:
 1. Read `README.md` first for the table of contents
 2. Read entries relevant to the current task (use the TL;DR for quick scanning)
 3. Follow `CLAUDE.md` instructions for saving new entries
+---
+
+## Tags
+
+ `agents` `ai-coding` `architecture` `claude-code` `development-methodology` `enterprise` `kiro` `knowledge-base` `mcp` `note-taking` `obsidian` `project-lifecycle` `skills` `specs` `superpowers` `urls` `workflow`
+

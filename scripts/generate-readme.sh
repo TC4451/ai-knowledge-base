@@ -29,9 +29,9 @@ cat > "$README" << 'HEADER'
 ## Table of Contents
 
 - [Entries](#entries) — Browse knowledge by category
-- [Tags](#tags) — Cross-cutting topic index
 - [Usage](#usage) — How to add, aggregate, and manage entries
 - [For AI Agents](#for-ai-agents) — How agents discover and use this KB
+- [Tags](#tags) — Cross-cutting topic index
 
 ---
 
@@ -89,22 +89,6 @@ for category in "${CATEGORIES[@]}"; do
 
     echo "" >> "$README"
 done
-
-# Tag index
-if [[ ${#ALL_TAGS[@]} -gt 0 ]]; then
-    echo "---" >> "$README"
-    echo "" >> "$README"
-    echo "## Tags" >> "$README"
-    echo "" >> "$README"
-
-    sorted_unique_tags=($(printf '%s\n' "${ALL_TAGS[@]}" | sort -u))
-    tag_line=""
-    for tag in "${sorted_unique_tags[@]}"; do
-        tag_line+=" \`$tag\`"
-    done
-    echo "$tag_line" >> "$README"
-    echo "" >> "$README"
-fi
 
 # Usage section
 cat >> "$README" << 'USAGE'
@@ -188,5 +172,21 @@ Agents should:
 2. Read entries relevant to the current task (use the TL;DR for quick scanning)
 3. Follow `CLAUDE.md` instructions for saving new entries
 USAGE
+
+# Tag index (last section)
+if [[ ${#ALL_TAGS[@]} -gt 0 ]]; then
+    echo "---" >> "$README"
+    echo "" >> "$README"
+    echo "## Tags" >> "$README"
+    echo "" >> "$README"
+
+    sorted_unique_tags=($(printf '%s\n' "${ALL_TAGS[@]}" | sort -u))
+    tag_line=""
+    for tag in "${sorted_unique_tags[@]}"; do
+        tag_line+=" \`$tag\`"
+    done
+    echo "$tag_line" >> "$README"
+    echo "" >> "$README"
+fi
 
 echo "README.md generated with entries from ${#CATEGORIES[@]} categories."
