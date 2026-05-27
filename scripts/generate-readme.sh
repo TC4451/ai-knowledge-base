@@ -27,6 +27,10 @@ cat > "$README" << 'HEADER'
 ### TL;DR
 
 ```bash
+# Clone and set up skills
+git clone https://github.com/TC4451/ai-knowledge-base.git
+cd ai-knowledge-base && diff <(cat skills-manifest.txt) <(ls ~/.claude/skills/)
+
 # Add a learning mid-conversation
 "Save this to the KB — [your learning here]"
 
