@@ -61,6 +61,8 @@ diff <(cat skills-manifest.txt) <(ls ~/.claude/skills/)
 
 ### Recipes
 
+- [**Install External Claude Code Skills**](recipes/install-external-skills.md)
+  Install skills from K-Dense-AI/scientific-agent-skills and anthropics/skills repos via sparse clone + copy to ~/.claude/skills/.
 - [**Save a Learning to the KB Mid-Conversation**](recipes/save-to-kb-mid-conversation.md)
   Say "save this to the KB" during any Claude session to capture a learning without breaking flow.
 
@@ -157,5 +159,5 @@ Agents should:
 
 ## Tags
 
- `agents` `ai-coding` `architecture` `claude-code` `development-methodology` `diagnostics` `enterprise` `kiro` `knowledge-base` `mcp` `note-taking` `obsidian` `project-lifecycle` `repo-awareness` `skills` `specs` `superpowers` `urls` `workflow`
+ `agents` `ai-coding` `architecture` `claude-code` `development-methodology` `diagnostics` `enterprise` `installation` `kiro` `knowledge-base` `mcp` `note-taking` `obsidian` `project-lifecycle` `repo-awareness` `setup` `skills` `specs` `superpowers` `urls` `workflow`
 

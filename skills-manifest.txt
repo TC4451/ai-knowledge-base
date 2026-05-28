@@ -1,10 +1,15 @@
 brainstorming
 caveman
 dispatching-parallel-agents
+docx
 executing-plans
 finishing-a-development-branch
 grill-me
 handoff
+matplotlib
+networkx
+orient
+paper-lookup
 planning-with-files
 receiving-code-review
 requesting-code-review
