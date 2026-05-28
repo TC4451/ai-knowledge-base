@@ -49,6 +49,8 @@ diff <(cat skills-manifest.txt) <(ls ~/.claude/skills/)
 
 ### Tools
 
+- [**ccstatusline - Claude Code Status Line Formatter**](tools/ccstatusline.md)
+  ccstatusline is an npm package that provides a highly customizable status line for Claude Code CLI, showing model info, git branch, token usage, block timer, and more.
 - [**Obsidian for Enterprise Use**](tools/obsidian-for-enterprise.md)
   Obsidian works well in enterprise environments — but cloud sync features are typically restricted for vaults containing company data.
 - [**Orient Skill — Repo Situational Awareness**](tools/orient-skill.md)
@@ -159,5 +161,5 @@ Agents should:
 
 ## Tags
 
- `agents` `ai-coding` `architecture` `claude-code` `development-methodology` `diagnostics` `enterprise` `installation` `kiro` `knowledge-base` `mcp` `note-taking` `obsidian` `project-lifecycle` `repo-awareness` `setup` `skills` `specs` `superpowers` `urls` `workflow`
+ `agents` `ai-coding` `architecture` `claude-code` `customization` `development-methodology` `diagnostics` `enterprise` `installation` `kiro` `knowledge-base` `mcp` `note-taking` `npm` `obsidian` `project-lifecycle` `repo-awareness` `setup` `skills` `specs` `status-line` `superpowers` `terminal` `urls` `workflow`
 
