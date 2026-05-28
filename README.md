@@ -10,7 +10,7 @@
 # Clone and set up
 git clone https://github.com/TC4451/ai-knowledge-base.git
 cd ai-knowledge-base
-./scripts/setup.sh          # Register KB with Claude Code (enables "save this to the KB" from anywhere)
+./scripts/setup.sh          # Install global rule (enables "save this to the KB" from any directory)
 
 # Check skills are installed
 diff <(cat skills-manifest.txt) <(ls ~/.claude/skills/)
@@ -72,13 +72,13 @@ diff <(cat skills-manifest.txt) <(ls ~/.claude/skills/)
 
 ### Setup
 
-Run the setup script to register this KB with Claude Code. This creates a memory entry so Claude knows where the KB lives — enabling "save this to the KB" from **any directory**.
+Run the setup script to register this KB with Claude Code. This creates a **global rule** at `~/.claude/rules/` so Claude knows where the KB lives — enabling "save this to the KB" from **any directory, in any session**.
 
 ```bash
 ./scripts/setup.sh
 ```
 
-After setup, any Claude Code session on your machine will automatically know about this KB. No need to be in the repo directory.
+After setup, saying "save this to the KB" in any Claude Code session will write directly to this repo, regardless of your current working directory.
 
 ### Adding Entries
 
@@ -148,8 +148,8 @@ ls ~/.claude/skills/ > skills-manifest.txt
 ### For AI Agents
 
 Agents discover this KB via:
-- A **Claude memory entry** that points here from any session
-- The **CLAUDE.md** in this repo with detailed instructions
+- A **global rule** at `~/.claude/rules/ai-knowledge-base.md` (installed by `./scripts/setup.sh`) that routes "save this to the KB" commands to this repo from any directory
+- The **CLAUDE.md** in this repo with detailed instructions when working inside the repo
 
 Agents should:
 1. Read `README.md` first for the table of contents

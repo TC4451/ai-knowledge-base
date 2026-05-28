@@ -4,6 +4,10 @@
 
 This is a curated knowledge base of AI usage learnings. It contains entries about Claude Code, Kiro, MCP, and other AI tools — organized for both human browsing and agent consumption.
 
+## How Agents Discover This KB
+
+A global rule at `~/.claude/rules/ai-knowledge-base.md` (installed via `./scripts/setup.sh`) routes all "save this to the KB" commands to this repo. This works from any directory, in any session — no need to be inside the repo.
+
 ## How to Use This KB
 
 1. **Start with README.md** — it's an auto-generated table of contents grouped by category
@@ -15,12 +19,14 @@ This is a curated knowledge base of AI usage learnings. It contains entries abou
 When the user says "save this to the KB" or similar:
 
 1. Determine the category: `concepts/`, `tools/`, `workflows/`, or `recipes/`
-2. Create a new `.md` file using the format in `templates/entry.md`
+2. Create a new `.md` file in this repo using the format in `templates/entry.md`
 3. Use a descriptive kebab-case filename (e.g., `mcp-vs-direct-links.md`)
 4. Fill in frontmatter: title, category, tags, today's date, source: conversation
 5. Write a one-line TL;DR, then Details, then When This Matters
 6. Run `./scripts/generate-readme.sh` to update the table of contents
 7. Commit with message: "Add: <title>"
+
+**Important:** Always write to this repo's directory, NOT to `.claude/projects/.../memory/`.
 
 ## How to Triage the Inbox
 
