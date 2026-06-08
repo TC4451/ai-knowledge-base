@@ -12,7 +12,7 @@ Use MCP tools for URLs behind corporate auth; use direct fetch for public URLs.
 
 ## Details
 
-**MCP tools** are required when the URL needs corporate authentication (SSO, VPN-gated internal sites, etc.). MCP servers like `ReadInternalWebsites` handle this auth transparently.
+**MCP tools** are required when the URL needs corporate authentication (SSO, VPN-gated internal sites, etc.). A purpose-built MCP server can handle this auth transparently, where a plain fetch would fail.
 
 **Direct fetch** works for public URLs (GitHub, Stack Overflow, public docs, etc.) — no special auth needed.
 

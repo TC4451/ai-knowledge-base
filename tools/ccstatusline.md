@@ -14,16 +14,16 @@ ccstatusline is an npm package that provides a highly customizable status line f
 
 ### Installation
 
-Requires Node.js. On Amazon Cloud Desktop where `npx` alias conflicts with Brazil:
+Requires Node.js. Run via `npx`:
 
 ```bash
-# Install nvm first (if no node)
+# Install nvm first (if you don't have node)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 source ~/.zshrc
 nvm install --lts
 
-# Use the real npx binary (bypasses Brazil alias)
-$HOME/.nvm/versions/node/v24.16.0/bin/npx -y ccstatusline@latest
+# Run ccstatusline
+npx -y ccstatusline@latest
 ```
 
 ### Configuration
@@ -57,12 +57,9 @@ For pinned installs (no auto-update): choose "Pinned global install" in TUI, the
 - Short bar / progress bar display modes
 - Global minimalist mode for label-free output
 
-### Useful Aliases
+### Note
 
-```bash
-# Add to ~/.zshrc to bypass Brazil npx alias
-alias npx-real="$HOME/.nvm/versions/node/v24.16.0/bin/npx"
-```
+If your shell aliases `npx` to something else (some corporate dev environments do), invoke the real binary directly from your nvm install, e.g. `$HOME/.nvm/versions/node/<version>/bin/npx`.
 
 ### Repo
 

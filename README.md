@@ -8,7 +8,7 @@
 
 ```bash
 # Clone and set up
-git clone https://github.com/TC4451/ai-knowledge-base.git
+git clone https://github.com/<your-username>/ai-knowledge-base.git
 cd ai-knowledge-base
 ./scripts/setup.sh          # Install global rule (enables "save this to the KB" from any directory)
 
