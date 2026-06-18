@@ -69,6 +69,8 @@ diff <(cat skills-manifest.txt) <(ls ~/.claude/skills/)
   Drop this line into a prompt to get clear, jargon-free answers: "Use simplistic, scientific, easy vocab, and straightforward language for most efficient communication."
 - [**Save a Learning to the KB Mid-Conversation**](recipes/save-to-kb-mid-conversation.md)
   Say "save this to the KB" during any Claude session to capture a learning without breaking flow.
+- [**Work Across Two Directories with additionalDirectories**](recipes/work-across-directories.md)
+  Give Claude Code seamless read/write access to folders outside the current working directory by adding them to `additionalDirectories` in settings (or the `--add-dir` CLI flag) — so docs can live in one folder and code in another.
 
 ---
 
@@ -163,5 +165,5 @@ Agents should:
 
 ## Tags
 
- `agents` `ai-coding` `architecture` `claude-code` `communication` `customization` `development-methodology` `diagnostics` `enterprise` `installation` `kiro` `knowledge-base` `mcp` `note-taking` `npm` `obsidian` `output-style` `project-lifecycle` `prompting` `repo-awareness` `setup` `skills` `specs` `status-line` `superpowers` `terminal` `urls` `workflow`
+ `agents` `ai-coding` `architecture` `claude-code` `communication` `config` `customization` `development-methodology` `diagnostics` `enterprise` `installation` `kiro` `knowledge-base` `mcp` `note-taking` `npm` `obsidian` `output-style` `project-lifecycle` `prompting` `repo-awareness` `settings` `setup` `skills` `specs` `status-line` `superpowers` `terminal` `urls` `workflow` `workspace`
 
