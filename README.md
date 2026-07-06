@@ -55,6 +55,8 @@ diff <(cat skills-manifest.txt) <(ls ~/.claude/skills/)
   Obsidian works well in enterprise environments — but cloud sync features are typically restricted for vaults containing company data.
 - [**Orient Skill — Repo Situational Awareness**](tools/orient-skill.md)
   Custom `/orient` skill provides instant situational awareness of any repo — runs parallel diagnostics and outputs a tiered briefing.
+- [**/stats and /insights — Claude Code Usage Commands**](tools/stats-and-insights-commands.md)
+  Two built-in Claude Code slash commands for understanding your own usage: `/stats` shows a visual calendar graph and usage data points; `/insights` generates a full HTML report that analyzes your usage patterns and recommends changes to CLAUDE.md, skills, hooks, and more.
 
 ### Workflows
 
@@ -165,5 +167,5 @@ Agents should:
 
 ## Tags
 
- `agents` `ai-coding` `architecture` `claude-code` `communication` `config` `customization` `development-methodology` `diagnostics` `enterprise` `installation` `kiro` `knowledge-base` `mcp` `note-taking` `npm` `obsidian` `output-style` `project-lifecycle` `prompting` `repo-awareness` `settings` `setup` `skills` `specs` `status-line` `superpowers` `terminal` `urls` `workflow` `workspace`
+ `agents` `ai-coding` `analytics` `architecture` `claude-code` `communication` `config` `customization` `development-methodology` `diagnostics` `enterprise` `installation` `kiro` `knowledge-base` `mcp` `note-taking` `npm` `obsidian` `output-style` `project-lifecycle` `prompting` `repo-awareness` `settings` `setup` `skills` `slash-commands` `specs` `status-line` `superpowers` `terminal` `urls` `usage` `workflow` `workspace`
 
