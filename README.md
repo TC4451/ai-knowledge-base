@@ -65,6 +65,8 @@ diff <(cat skills-manifest.txt) <(ls ~/.claude/skills/)
 
 ### Recipes
 
+- [**Explain a Large Codebase as docs/pipeline.md**](recipes/explain-codebase-doc-prompt.md)
+  A structured prompt that makes Claude produce a verified, honest `docs/pipeline.md` that teaches a large codebase — with mermaid diagrams, a file:function legend, bottom-up walkthroughs, live values from real runs, and a coverage/render gate before it claims done.
 - [**Install External Claude Code Skills**](recipes/install-external-skills.md)
   Install skills from K-Dense-AI/scientific-agent-skills and anthropics/skills repos via sparse clone + copy to ~/.claude/skills/.
 - [**Plain-Language Output Prompt**](recipes/plain-language-output-prompt.md)
@@ -167,5 +169,5 @@ Agents should:
 
 ## Tags
 
- `agents` `ai-coding` `analytics` `architecture` `claude-code` `communication` `config` `customization` `development-methodology` `diagnostics` `enterprise` `installation` `kiro` `knowledge-base` `mcp` `note-taking` `npm` `obsidian` `output-style` `project-lifecycle` `prompting` `repo-awareness` `settings` `setup` `skills` `slash-commands` `specs` `status-line` `superpowers` `terminal` `urls` `usage` `workflow` `workspace`
+ `agents` `ai-coding` `analytics` `architecture` `claude-code` `codebase` `communication` `config` `customization` `development-methodology` `diagnostics` `documentation` `enterprise` `installation` `kiro` `knowledge-base` `mcp` `note-taking` `npm` `obsidian` `onboarding` `output-style` `project-lifecycle` `prompting` `repo-awareness` `settings` `setup` `skills` `slash-commands` `specs` `status-line` `superpowers` `terminal` `urls` `usage` `workflow` `workspace`
 
